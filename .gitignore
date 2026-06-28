@@ -1,0 +1,18 @@
+backend/.env
+cat > .gitignore << 'EOF'
+venv/
+.venv/
+env/
+__pycache__/
+*.pyc
+.env
+backend/.env
+.DS_Store
+temp_pdfs/
+*.mp3
+*.wav
+*.faiss
+.vscode/
+*.bin
+*.pkl
+EOF
